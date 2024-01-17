@@ -13,13 +13,14 @@
 git clone <repo name>
 cd mars-rover-image-viewer
 npm install
+```
+Create an .env.local file in your Root directory and add these two variables
+
+- API_KEY (Nasa API Key)
+- BASE_URL (Nasa base API URL)
+
+  
+```bash
 npm run dev
 npm run test (optional : for running tests)
 ```
-
-## Environment Variables
-
-Create an .env.local file in your Root directory
-
-- API_KEY
-- BASE_URL
